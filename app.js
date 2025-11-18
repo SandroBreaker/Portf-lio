@@ -10,6 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
       demoLink: "https://sandrobreaker.github.io/RTP-simulator/", // Link para a demo (opcional)
       repoLink: "https://github.com/SandroBreaker/RTP-simulator" // Link para o repositório GitHub
     },
+    {
+  title: "Montador de Móveis",
+  description: "Site para Orçamento para montagemdemóveis.",
+  thumbnail: "assets/project2.png", // Imagem de destaque do projeto
+  demoLink: "https://carlos-montador-de-moveis.github.io/montador-de-moveis/", // Link para a demo (opcional)
+  repoLink: "https://github.com/carlos-montador-de-moveis/montador-de-moveis" // Link para o repositório GitHub
+    }
+
     // Adicione mais projetos aqui
   ];
 
