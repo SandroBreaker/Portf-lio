@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Adicionada propriedade 'category' para filtragem
  
 
+
 const projects = [
   {
     title: "Simulador RTP",
@@ -12,16 +13,6 @@ const projects = [
     demoLink: "https://sandrobreaker.github.io/RTP-simulator/", 
     repoLink: "https://github.com/SandroBreaker/RTP-simulator"
   },
-  {
-    title: "Montador de Móveis",
-    category: "Frontend",
-    description: "Plataforma de orçamento para serviços de montagem. Foco em conversão, layout responsivo e usabilidade direta para o cliente final.",
-    thumbnail: "assets/project2.png", 
-    demoLink: "https://carlos-montador-de-moveis.github.io/montador-de-moveis/", 
-    repoLink: "https://github.com/carlos-montador-de-moveis/montador-de-moveis"
-  },
-
-  // --- Novos Projetos ---
   {
     title: "Sistema de Registro e Login",
     category: "Fullstack",
@@ -37,14 +28,6 @@ const projects = [
     thumbnail: "assets/project-payment.png",
     demoLink: "https://sandrobreaker.github.io/payment-checkout/",
     repoLink: "https://github.com/SandroBreaker/payment-checkout"
-  },
-  {
-    title: "Orçamentos - Montagem de Móveis",
-    category: "Fullstack",
-    description: "Sistema de orçamento com integração a Google Sheets e fluxo automatizado para envio de dados.",
-    thumbnail: "assets/project-orcamentos.png",
-    demoLink: "https://sandrobreaker.github.io/Or-amentos-montagem-de-m-veis/",
-    repoLink: "https://github.com/SandroBreaker/Or-amentos-montagem-de-m-veis"
   },
   {
     title: "Calculadora de Investimento",
@@ -63,6 +46,8 @@ const projects = [
     repoLink: "https://github.com/SandroBreaker/landingPage_orcamento"
   }
 ];
+
+
 
 
   // --- COMPONENTES DOM ---
