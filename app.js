@@ -25,7 +25,7 @@ const projects = [
     title: "Payment Checkout",
     category: "Frontend",
     description: "Checkout moderno para pagamentos online. Simplicidade, UX direta e simulação de fluxo real.",
-    thumbnail: "assets/project-payment.png",
+    thumbnail: "assets/project-payment.jpg",
     demoLink: "https://sandrobreaker.github.io/payment-checkout/",
     repoLink: "https://github.com/SandroBreaker/payment-checkout"
   },
