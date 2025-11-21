@@ -1,25 +1,69 @@
 document.addEventListener("DOMContentLoaded", () => {
   // --- DADOS DO PORTFÓLIO ---
   // Adicionada propriedade 'category' para filtragem
-  const projects = [
-    {
-      title: "Simulador RTP",
-      category: "Algoritmos",
-      description: "🚀 SlotRTP Optimizer: Motor heurístico de otimização de RTP para jogos de slot. Calibração iterativa de multiplicadores para atingir alvos matemáticos precisos.",
-      thumbnail: "assets/project1.png", 
-      demoLink: "https://sandrobreaker.github.io/RTP-simulator/", 
-      repoLink: "https://github.com/SandroBreaker/RTP-simulator"
-    },
-    {
-      title: "Montador de Móveis",
-      category: "Frontend",
-      description: "Plataforma de orçamento para serviços de montagem. Foco em conversão, layout responsivo e usabilidade direta para o cliente final.",
-      thumbnail: "assets/project2.png", 
-      demoLink: "https://carlos-montador-de-moveis.github.io/montador-de-moveis/", 
-      repoLink: "https://github.com/carlos-montador-de-moveis/montador-de-moveis"
-    }
-    // Novos projetos podem ser adicionados aqui
-  ];
+ 
+
+const projects = [
+  {
+    title: "Simulador RTP",
+    category: "Algoritmos",
+    description: "🚀 SlotRTP Optimizer: Motor heurístico de otimização de RTP para jogos de slot. Calibração iterativa de multiplicadores para atingir alvos matemáticos precisos.",
+    thumbnail: "assets/project1.png", 
+    demoLink: "https://sandrobreaker.github.io/RTP-simulator/", 
+    repoLink: "https://github.com/SandroBreaker/RTP-simulator"
+  },
+  {
+    title: "Montador de Móveis",
+    category: "Frontend",
+    description: "Plataforma de orçamento para serviços de montagem. Foco em conversão, layout responsivo e usabilidade direta para o cliente final.",
+    thumbnail: "assets/project2.png", 
+    demoLink: "https://carlos-montador-de-moveis.github.io/montador-de-moveis/", 
+    repoLink: "https://github.com/carlos-montador-de-moveis/montador-de-moveis"
+  },
+
+  // --- Novos Projetos ---
+  {
+    title: "Sistema de Registro e Login",
+    category: "Fullstack",
+    description: "Sistema completo de autenticação com foco em segurança, fluxos limpos e CRUD organizado para usuários.",
+    thumbnail: "assets/project-register-login.png",
+    demoLink: "https://sandrobreaker.github.io/register-login-kaizoku/",
+    repoLink: "https://github.com/SandroBreaker/register-login-kaizoku"
+  },
+  {
+    title: "Payment Checkout",
+    category: "Frontend",
+    description: "Checkout moderno para pagamentos online. Simplicidade, UX direta e simulação de fluxo real.",
+    thumbnail: "assets/project-payment.png",
+    demoLink: "https://sandrobreaker.github.io/payment-checkout/",
+    repoLink: "https://github.com/SandroBreaker/payment-checkout"
+  },
+  {
+    title: "Orçamentos - Montagem de Móveis",
+    category: "Fullstack",
+    description: "Sistema de orçamento com integração a Google Sheets e fluxo automatizado para envio de dados.",
+    thumbnail: "assets/project-orcamentos.png",
+    demoLink: "https://sandrobreaker.github.io/Or-amentos-montagem-de-m-veis/",
+    repoLink: "https://github.com/SandroBreaker/Or-amentos-montagem-de-m-veis"
+  },
+  {
+    title: "Calculadora de Investimento",
+    category: "Algoritmos",
+    description: "Simulador financeiro para rendimento composto. Cálculos automatizados e UI limpa.",
+    thumbnail: "assets/project-investimento.png",
+    demoLink: "https://sandrobreaker.github.io/calculadora-de-investimento/",
+    repoLink: "https://github.com/SandroBreaker/calculadora-de-investimento"
+  },
+  {
+    title: "Landing Page de Orçamento",
+    category: "Frontend",
+    description: "Landing page otimizada para conversão, com formulário funcional e layout leve.",
+    thumbnail: "assets/project-landing.png",
+    demoLink: "https://sandrobreaker.github.io/landingPage_orcamento/",
+    repoLink: "https://github.com/SandroBreaker/landingPage_orcamento"
+  }
+];
+
 
   // --- COMPONENTES DOM ---
   const portfolioGrid = document.getElementById('portfolioGrid');
